@@ -60,7 +60,7 @@ export const resumeData: ResumeData = {
     email: 'leonardaromeh@gmail.com',
     phone: '+234 (0)8036787860 ',
     location: 'Abuja, Nigeria',
-    website: 'https://ogbajeleo.dev',
+    website: 'https://omogbaje.vercel.app',
     linkedin: 'https://linkedin.com/in/ogbajeleo',
     github: 'https://github.com/ogbajeleo',
     summary: 'Passionate Frontend Web Developer with 3+ years of experience building end-to-end web applications. Specialized in React, Next.js,Vue.js Node.js, and TypeScript with expertise in frontend development. Proven track record of delivering scalable solutions and collaborating effectively with cross-functional teams.'

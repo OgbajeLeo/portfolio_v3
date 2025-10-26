@@ -10,17 +10,6 @@ import {
   CSSIcon,
   SASSIcon,
   NodeJSIcon,
-  ExpressIcon,
-  RESTIcon,
-  GraphQLIcon,
-  ReactNativeIcon,
-  ExpoIcon,
-  FlutterIcon,
-  PostgreSQLIcon,
-  MongoDBIcon,
-  FirebaseIcon,
-  SupabaseIcon,
-  PrismaIcon,
   GitIcon,
   GitHubIcon,
   DockerIcon,
@@ -113,88 +102,8 @@ export const skills: Skill[] = [
     icon: <NodeJSIcon />,
     description: "Server-side JavaScript runtime for building APIs",
   },
-  {
-    name: "Express.js",
-    category: "backend",
-    level: "expert",
-    icon: <ExpressIcon />,
-    description: "Fast, unopinionated web framework for Node.js",
-  },
-  {
-    name: "REST APIs",
-    category: "backend",
-    level: "expert",
-    icon: <RESTIcon />,
-    description: "Designing and implementing RESTful web services",
-  },
-  {
-    name: "GraphQL",
-    category: "backend",
-    level: "advanced",
-    icon: <GraphQLIcon />,
-    description: "Query language and runtime for APIs",
-  },
-
-  // Mobile Development
-  {
-    name: "React Native",
-    category: "mobile",
-    level: "advanced",
-    icon: <ReactNativeIcon />,
-    description: "Cross-platform mobile app development",
-  },
-  {
-    name: "Expo",
-    category: "mobile",
-    level: "advanced",
-    icon: <ExpoIcon />,
-    description: "Platform for universal React applications",
-  },
-  {
-    name: "Flutter",
-    category: "mobile",
-    level: "beginner",
-    icon: <FlutterIcon />,
-    description: "UI toolkit for building natively compiled applications",
-  },
-
-  // Databases
-  {
-    name: "PostgreSQL",
-    category: "database",
-    level: "advanced",
-    icon: <PostgreSQLIcon />,
-    description: "Advanced open-source relational database",
-  },
-  {
-    name: "MongoDB",
-    category: "database",
-    level: "advanced",
-    icon: <MongoDBIcon />,
-    description: "NoSQL document database for modern applications",
-  },
-  {
-    name: "Firebase",
-    category: "database",
-    level: "advanced",
-    icon: <FirebaseIcon />,
-    description: "Google's mobile and web application platform",
-  },
-  {
-    name: "Supabase",
-    category: "database",
-    level: "intermediate",
-    icon: <SupabaseIcon />,
-    description: "Open source Firebase alternative",
-  },
-  {
-    name: "Prisma",
-    category: "database",
-    level: "advanced",
-    icon: <PrismaIcon />,
-    description: "Next-generation ORM for Node.js and TypeScript",
-  },
-
+ 
+ 
   // Tools & Technologies
   {
     name: "Git",

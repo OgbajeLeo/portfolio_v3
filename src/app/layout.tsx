@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Ogbaje Leo Arome - Frontend Web Developer & Software Engineer",
     description:
       "Portfolio website of Ogbaje Leo Arome - A passionate Frontend Web Developer specializing in React, Next.js, Vue.js, Node.js, TypeScript, and modern web technologies. Building end-to-end web solutions with a focus on user experience and performance.",
-    canonicalUrl: "https://ogbajeleo.dev",
+    canonicalUrl: "https://omogbaje.vercel.app",
     ogImage: "/fav.jpg",
     ogImageAlt: "Ogbaje Leo Arome - Frontend Developer Portfolio",
   }),

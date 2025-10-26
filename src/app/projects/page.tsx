@@ -27,8 +27,8 @@ export const metadata: Metadata = generateSEOMetadata({
 
 export default function ProjectsPage() {
   const breadcrumbStructuredData = generateBreadcrumbStructuredData([
-    { name: "Home", url: "https://ogbajeleo.dev" },
-    { name: "Projects", url: "https://ogbajeleo.dev/projects" },
+    { name: "Home", url: "https://omogbaje.vercel.app" },
+    { name: "Projects", url: "https://omogbaje.vercel.app/projects" },
   ]);
 
   return (

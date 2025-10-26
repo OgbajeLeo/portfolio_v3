@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/private/', '/admin/'],
     },
-    sitemap: 'https://ogbajeleo.dev/sitemap.xml',
+    sitemap: 'https://omogbaje.vercel.app/sitemap.xml',
   };
 }

@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { projects } from '../data/projects';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://ogbajeleo.dev';
+  const baseUrl = 'https://omogbaje.vercel.app';
   
   // Static routes
   const staticRoutes = [

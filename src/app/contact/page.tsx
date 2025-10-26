@@ -23,8 +23,8 @@ export const metadata: Metadata = generateSEOMetadata({
 
 export default function ContactPage() {
   const breadcrumbStructuredData = generateBreadcrumbStructuredData([
-    { name: "Home", url: "https://ogbajeleo.dev" },
-    { name: "Contact", url: "https://ogbajeleo.dev/contact" },
+    { name: "Home", url: "https://omogbaje.vercel.app" },
+    { name: "Contact", url: "https://omogbaje.vercel.app/contact" },
   ]);
 
   return (

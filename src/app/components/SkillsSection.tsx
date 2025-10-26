@@ -58,7 +58,7 @@ const SkillsSection = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
                 {categoryLabels[category]}
               </h3>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
                 {categorySkills.map((skill, index) => (
                   <motion.div
                     key={skill.name}
@@ -67,7 +67,7 @@ const SkillsSection = () => {
                     transition={{ duration: 0.2 }}
                   >
                     <Card className="p-4 text-center group cursor-pointer">
-                      <div className="text-2xl mb-2">{skill.icon}</div>
+                      <div className="text-2xl mb-2 ">{skill.icon}</div>
                       <h4 className="font-semibold text-gray-900 text-sm mb-1">
                         {skill.name}
                       </h4>

@@ -119,7 +119,7 @@ export const projects: Project[] = [
     longDescription: 'Designed and developed a personal portfolio website using Next.js and Framer Motion for animations. The site features a clean, modern design with smooth animations, project showcases, and contact functionality. Built with SEO optimization and performance in mind.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
     technologies: ['Next.js', 'TypeScript', 'Framer Motion', 'TailwindCSS', 'EmailJS'],
-    liveUrl: 'https://ogbajeleo.dev',
+    liveUrl: 'https://omogbaje.vercel.app',
     githubUrl: 'https://github.com/ogbajeleo/portfolio',
     features: [
       'Responsive design for all devices',

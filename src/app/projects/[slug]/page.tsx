@@ -49,11 +49,11 @@ export default async function ProjectDetailsPage({
 
   const projectStructuredData = generateProjectStructuredData(project);
   const breadcrumbStructuredData = generateBreadcrumbStructuredData([
-    { name: "Home", url: "https://ogbajeleo.dev" },
-    { name: "Projects", url: "https://ogbajeleo.dev/projects" },
+    { name: "Home", url: "https://omogbaje.vercel.app" },
+    { name: "Projects", url: "https://omogbaje.vercel.app/projects" },
     {
       name: project.title,
-      url: `https://ogbajeleo.dev/projects/${project.id}`,
+      url: `https://omogbaje.vercel.app/projects/${project.id}`,
     },
   ]);
 

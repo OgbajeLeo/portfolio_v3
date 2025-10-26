@@ -45,8 +45,8 @@ export const defaultSEO: SEOConfig = {
     'Figma',
     'VS Code'
   ],
-  canonicalUrl: 'https://ogbajeleo.dev',
-  ogImage: 'https://ogbajeleo.dev/og-image.jpg',
+  canonicalUrl: 'https://omogbaje.vercel.app',
+  ogImage: 'https://omogbaje.vercel.app/og-image.jpg',
   ogImageAlt: 'Ogbaje Leo Arome - Frontend Developer Portfolio',
 };
 
@@ -126,8 +126,8 @@ export function generatePersonStructuredData() {
     name: 'Ogbaje Leo Arome',
     jobTitle: 'Frontend Web Developer & Software Engineer',
     description: 'Passionate Frontend Web Developer specializing in React, Next.js, Vue.js, Node.js, TypeScript, and modern web technologies.',
-    url: 'https://ogbajeleo.dev',
-    image: 'https://ogbajeleo.dev/og-image.jpg',
+    url: 'https://omogbaje.vercel.app',
+    image: 'https://omogbaje.vercel.app/og-image.jpg',
     sameAs: [
       'https://github.com/ogbajeleo',
       'https://linkedin.com/in/ogbajeleo',
@@ -183,7 +183,7 @@ export function generateWebsiteStructuredData() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Ogbaje Leo Arome Portfolio',
-    url: 'https://ogbajeleo.dev',
+    url: 'https://omogbaje.vercel.app',
     description: 'Portfolio website showcasing my work as a Frontend Web Developer specializing in React, Next.js, Vue.js, Node.js, and TypeScript.',
     author: {
       '@type': 'Person',
@@ -191,7 +191,7 @@ export function generateWebsiteStructuredData() {
     },
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://ogbajeleo.dev/search?q={search_term_string}',
+      target: 'https://omogbaje.vercel.app/search?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   };
@@ -203,7 +203,7 @@ export function generateProjectStructuredData(project: any) {
     '@type': 'CreativeWork',
     name: project.title,
     description: project.description,
-    url: `https://ogbajeleo.dev/projects/${project.id}`,
+    url: `https://omogbaje.vercel.app/projects/${project.id}`,
     image: project.image,
     author: {
       '@type': 'Person',
@@ -233,7 +233,7 @@ export function generateBreadcrumbStructuredData(items: Array<{ name: string; ur
 
 // SEO Helper Functions
 export function generateCanonicalUrl(path: string): string {
-  const baseUrl = 'https://ogbajeleo.dev';
+  const baseUrl = 'https://omogbaje.vercel.app';
   return `${baseUrl}${path}`;
 }
 

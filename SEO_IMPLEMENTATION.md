@@ -154,7 +154,7 @@ verification: {
 Update the base URL in all SEO files:
 
 ```typescript
-// Replace 'https://ogbajeleo.dev' with your actual domain
+// Replace 'https://omogbaje.vercel.app' with your actual domain
 const baseUrl = 'https://yourdomain.com';
 ```
 
