@@ -113,7 +113,7 @@ export function generateMetadata(config: SEOConfig): Metadata {
       site: '@ogbajeleo',
     },
     verification: {
-      google: 'your-google-verification-code', // Replace with actual verification code
+      google: 'kiMz3qY265MAjxXvaS8zCFeENY0K0q8qYtkam4J8NNY', 
     },
   };
 }
@@ -131,15 +131,15 @@ export function generatePersonStructuredData() {
     sameAs: [
       'https://github.com/ogbajeleo',
       'https://linkedin.com/in/ogbajeleo',
-      'https://twitter.com/ogbajeleo',
+      'https://twitter.com/omaebije',
     ],
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Lagos',
+      addressLocality: 'Abuja',
       addressCountry: 'Nigeria',
     },
-    email: 'ogbajeleo@gmail.com',
-    telephone: '+234 (0) 123 456 7890',
+    email: 'leonardaromeh@gmail.com',
+    telephone: '+234 (0)9036787860',
     knowsAbout: [
       'React',
       'Next.js',

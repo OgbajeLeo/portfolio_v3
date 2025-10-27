@@ -44,11 +44,7 @@ const ResumePageClient = () => {
   };
 
   const handleDownload = () => {
-    // In a real implementation, this would download a PDF
-    // For now, we'll just show an alert
-    alert(
-      "PDF download functionality would be implemented here. In a real app, this would generate and download a PDF version of the resume."
-    );
+    
   };
 
   return (
@@ -66,7 +62,7 @@ const ResumePageClient = () => {
         >
           {/* Header Section */}
           <motion.div variants={itemVariants} className="mb-12">
-            <Card className="p-8 text-center">
+            <Card className="p-4 lg:p-8 text-center">
               <h1 className="text-4xl font-bold text-gray-900 mb-2">
                 {resumeData.personalInfo.name}
               </h1>

@@ -58,7 +58,7 @@ export const resumeData: ResumeData = {
     name: 'Ogbaje Leo Arome',
     title: 'Frontend Web Developer & Software Engineer',
     email: 'leonardaromeh@gmail.com',
-    phone: '+234 (0)8036787860 ',
+    phone: '+234 (0)9036787860 ',
     location: 'Abuja, Nigeria',
     website: 'https://omogbaje.vercel.app',
     linkedin: 'https://linkedin.com/in/ogbajeleo',
@@ -152,18 +152,20 @@ export const resumeData: ResumeData = {
   ],
   education: [
     {
-      institution: 'University of Lagos',
-      degree: 'Bachelor of Science',
+      institution: 'The Federal Polytechnic Idah',
+      degree: 'Higher National Diploma',
       field: 'Computer Science',
-      location: 'Lagos, Nigeria',
-      startDate: 'September 2018',
-      endDate: 'June 2022',
-      gpa: '3.8/4.0',
+      location: 'Idah, Kogi State, Nigeria',
+      startDate: 'November 2019',
+      endDate: '20th January, 2022',
+      gpa: '3.77/4.0',
       relevantCoursework: [
         'Data Structures and Algorithms',
         'Software Engineering',
         'Database Systems',
         'Web Development',
+        'System Design & Architecture',
+        'Expert System',
         'Mobile Application Development',
         'Human-Computer Interaction'
       ]
@@ -194,8 +196,8 @@ export const resumeData: ResumeData = {
     technical: [
       'React & Next.js', 'TypeScript & JavaScript', 'Node.js & Express.js',
       'TailwindCSS & CSS3', 'HTML5', 'REST APIs & GraphQL', 'MongoDB & PostgreSQL',
-      'Firebase & Supabase', 'Git & GitHub', 'Docker', 'AWS & Vercel',
-      'Figma & Adobe XD', 'Jest & Cypress', 'Webpack & Vite'
+      'Firebase & Supabase', 'Git & GitHub', 'AWS & Vercel',
+      'Figma', 'Jest & Cypress', 'Webpack & Vite'
     ],
     soft: [
       'Problem Solving', 'Team Collaboration', 'Communication', 'Time Management',
@@ -205,7 +207,6 @@ export const resumeData: ResumeData = {
   },
   languages: [
     { name: 'English', proficiency: 'Native' },
-    { name: 'French', proficiency: 'Conversational' },
-    { name: 'Spanish', proficiency: 'Basic' }
+  
   ]
 };

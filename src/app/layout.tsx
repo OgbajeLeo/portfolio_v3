@@ -54,6 +54,10 @@ export default function RootLayout({
             __html: JSON.stringify(websiteStructuredData),
           }}
         />
+        <meta
+          name="google-site-verification"
+          content="X6u0Nzs00Zg-8LcPGlL9FpGIGIc88mrv_SZZBI1YaxM"
+        />
       </head>
       <body className={`${spaceGrotesk.className} antialiased`}>
         <div className="min-h-screen flex flex-col bg-primary3">
