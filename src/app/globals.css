@@ -99,6 +99,24 @@ body {
   color: rgb(146, 64, 14);
 }
 
+/* Marquee Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.hover\:pause-marquee:hover {
+  animation-play-state: paused;
+}
+
 /* Mobile Optimizations */
 @media (max-width: 768px) {
   .grid-perspective {
@@ -108,5 +126,9 @@ body {
   
   .glass-card {
     padding: 1.5rem;
+  }
+  
+  .animate-marquee {
+    animation-duration: 25s;
   }
 }

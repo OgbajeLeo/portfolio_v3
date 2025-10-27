@@ -58,44 +58,53 @@ const SkillsSection = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
                 {categoryLabels[category]}
               </h3>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
-                {categorySkills.map((skill, index) => (
-                  <motion.div
-                    key={skill.name}
-                    variants={itemVariants}
-                    whileHover={{ scale: 1.05, y: -2 }}
-                    transition={{ duration: 0.2 }}
-                  >
-                    <Card className="p-4 text-center group cursor-pointer">
-                      <div className="text-2xl mb-2 ">{skill.icon}</div>
-                      <h4 className="font-semibold text-gray-900 text-sm mb-1">
-                        {skill.name}
-                      </h4>
-                      <div className="flex justify-center space-x-1">
-                        {[...Array(4)].map((_, i) => (
-                          <div
-                            key={i}
-                            className={`w-2 h-2 rounded-full ${
-                              i <
-                              (skill.level === "expert"
-                                ? 4
-                                : skill.level === "advanced"
-                                ? 3
-                                : skill.level === "intermediate"
-                                ? 2
-                                : 1)
-                                ? "bg-primary1"
-                                : "bg-gray-200"
-                            }`}
-                          />
-                        ))}
+              <div className="relative w-full overflow-hidden py-4">
+                {/* CSS-based marquee container */}
+                <div className="flex animate-marquee hover:pause-marquee">
+                  {/* First set of skills */}
+                  {categorySkills.map((skill, index) => (
+                    <motion.div
+                      key={`marquee-1-${skill.name}`}
+                      className="mx-6 flex-shrink-0"
+                      whileHover={{
+                        scale: 1.1,
+                        y: -5,
+                        transition: { duration: 0.3, ease: "easeOut" },
+                      }}
+                    >
+                      <div className="p-6 text-center group cursor-pointer bg-white/40 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white/60 min-w-[120px]">
+                        <div className="text-4xl mb-3 size-16 mx-auto group-hover:scale-110 transition-transform duration-300">
+                          {skill.icon}
+                        </div>
+                        <h4 className="font-semibold text-gray-800 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                          {skill.name}
+                        </h4>
                       </div>
-                      <p className="text-xs text-gray-500 mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                        {skill.description}
-                      </p>
-                    </Card>
-                  </motion.div>
-                ))}
+                    </motion.div>
+                  ))}
+
+                  {/* Duplicate set for seamless loop */}
+                  {categorySkills.map((skill, index) => (
+                    <motion.div
+                      key={`marquee-2-${skill.name}`}
+                      className="mx-6 flex-shrink-0"
+                      whileHover={{
+                        scale: 1.1,
+                        y: -5,
+                        transition: { duration: 0.3, ease: "easeOut" },
+                      }}
+                    >
+                      <div className="p-6 text-center group cursor-pointer bg-white/40 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-white/60 min-w-[120px]">
+                        <div className="text-4xl mb-3 size-16 mx-auto group-hover:scale-110 transition-transform duration-300">
+                          {skill.icon}
+                        </div>
+                        <h4 className="font-semibold text-gray-800 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                          {skill.name}
+                        </h4>
+                      </div>
+                    </motion.div>
+                  ))}
+                </div>
               </div>
             </motion.div>
           );
