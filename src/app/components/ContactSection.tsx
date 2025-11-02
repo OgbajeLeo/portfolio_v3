@@ -55,19 +55,19 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "ogbajeleo@gmail.com",
-      href: "mailto:ogbajeleo@gmail.com",
+      value: "leonardaromeh@gmail.com",
+      href: "mailto:leonardaromeh@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+234 (0) 123 456 7890",
-      href: "tel:+2341234567890",
+      value: "+234 (0) 9036787860",
+      href: "tel:+2349036787860",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Lagos, Nigeria",
+      value: "Abuja, Nigeria",
       href: "#",
     },
   ];

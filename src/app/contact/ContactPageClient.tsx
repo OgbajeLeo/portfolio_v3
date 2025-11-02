@@ -59,7 +59,7 @@ const ContactPageClient = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "ogbajeleo@gmail.com",
+      value: "leonardaromeh@gmail.com",
       href: "mailto:leonardaromeh@gmail.com",
       description: "Send me an email anytime",
     },
